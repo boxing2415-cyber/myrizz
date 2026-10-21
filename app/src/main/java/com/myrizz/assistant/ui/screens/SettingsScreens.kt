@@ -199,9 +199,9 @@ fun LanguageScreen(onBack: () -> Unit) {
             }
         }
         SectionLabel(stringResource(R.string.lang_reply_title))
-        ReplyLanguageChips(settings.replyLanguage) { lang ->
+        ReplyLanguageChips(settings.replyLanguage, onSelect = { lang ->
             container.settings.update { it.copy(replyLanguage = lang) }
-        }
+        })
         Text(
             stringResource(R.string.lang_reply_hint),
             style = MaterialTheme.typography.bodyMedium,
