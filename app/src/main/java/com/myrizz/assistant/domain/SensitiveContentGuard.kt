@@ -18,11 +18,11 @@ object SensitiveContentGuard {
         L + """(?:password|passcode|passwd|pwd|pin|cvv|cvc|otp|one[- ]time(?: code| password)?|""" +
             """verification code|security code|κωδικ\p{L}{0,2})""" + R +
             """[^\n]{0,24}?(?:(?<![\p{L}\p{N}])(?:is|είναι)(?![\p{L}\p{N}])|[:=])\s*\S+""",
-        setOf(RegexOption.IGNORE_CASE, RegexOption.UNICODE_CASE),
+                RegexOption.IGNORE_CASE,
     )
     private val codeNearWord = Regex(
         L + """(?:code|κωδικ\p{L}{0,2}|otp|pin)""" + R + """[^\n\d]{0,20}\d{4,8}(?!\d)""",
-        setOf(RegexOption.IGNORE_CASE, RegexOption.UNICODE_CASE),
+                RegexOption.IGNORE_CASE,
     )
     private val privateKey = Regex("""-----BEGIN [A-Z ]*PRIVATE KEY-----""")
     private val apiKey = Regex("""(?<![A-Za-z0-9])(?:sk|pk|rk)-[A-Za-z0-9_\-]{20,}""")
