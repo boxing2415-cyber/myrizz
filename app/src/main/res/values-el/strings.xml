@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyRizz AI</string>
+    <string name="share_label">MyRizz AI</string>
+    <string name="process_text_label">Ξαναγράψε με MyRizz AI</string>
+    <string name="tile_label">Φούσκα MyRizz</string>
+
+    <!-- Generic -->
+    <string name="action_back">Πίσω</string>
+    <string name="action_close">Κλείσιμο</string>
+    <string name="action_cancel">Άκυρο</string>
+    <string name="action_continue">Συνέχεια</string>
+    <string name="action_skip">Παράλειψη</string>
+    <string name="action_done">Τέλος</string>
+    <string name="action_delete">Διαγραφή</string>
+    <string name="action_open_settings">Άνοιγμα ρυθμίσεων</string>
+    <string name="action_paste">Επικόλληση</string>
+    <string name="action_clear">Καθαρισμός</string>
+    <string name="action_copy">Αντιγραφή</string>
+    <string name="action_edit">Επεξεργασία</string>
+    <string name="action_save">Αποθήκευση</string>
+    <string name="action_confirm">Επιβεβαίωση</string>
+    <string name="copied_toast">Αντιγράφηκε. Επικόλλησέ το στη συνομιλία σου.</string>
+    <string name="nothing_to_paste">Το πρόχειρο είναι άδειο.</string>
+
+    <!-- Splash / onboarding -->
+    <string name="splash_tagline">Οι απαντήσεις σου. Το στυλ σου.</string>
+    <string name="onb1_title">Απαντήσεις που ακούγονται σαν εσένα</string>
+    <string name="onb1_body">Επικόλλησε μια συνομιλία, μοιράσου ένα μήνυμα ή ανέβασε screenshot. Πάρε τρεις φυσικές απαντήσεις σε δευτερόλεπτα, στα ελληνικά, αγγλικά ή greeklish.</string>
+    <string name="onb2_title">Μια φούσκα, όχι νέο πληκτρολόγιο</string>
+    <string name="onb2_body">Κράτα το Samsung Keyboard ακριβώς όπως είναι. Το MyRizz AI εμφανίζεται πάνω από τις εφαρμογές σου μόνο όταν το ενεργοποιήσεις.</string>
+    <string name="onb3_title">Ο έλεγχος είναι δικός σου</string>
+    <string name="onb3_body">Τίποτα δεν διαβάζεται αυτόματα. Η AI τρέχει μόνο όταν πατήσεις κουμπί και εσύ εγκρίνεις κάθε απάντηση πριν σταλεί.</string>
+    <string name="onb_get_started">Ας ξεκινήσουμε</string>
+
+    <!-- Setup -->
+    <string name="setup_title">Ρύθμιση</string>
+    <string name="setup_overlay_title">Εμφάνιση πάνω από άλλες εφαρμογές</string>
+    <string name="setup_overlay_body">Επιτρέπει στη φούσκα να εμφανίζεται πάνω από WhatsApp, Instagram, Tinder και άλλες εφαρμογές. Το MyRizz AI δεν διαβάζει ποτέ την οθόνη σου.</string>
+    <string name="setup_notif_title">Ειδοποιήσεις</string>
+    <string name="setup_notif_body">Εμφανίζει μια μικρή ειδοποίηση όσο η φούσκα είναι ενεργή, ώστε να τη σβήνεις όποτε θέλεις.</string>
+    <string name="setup_backend_title">Backend AI</string>
+    <string name="setup_backend_body">Σύνδεσε το δικό σου ασφαλές MyRizz backend ώστε οι απαντήσεις να γράφονται από πραγματική AI. Το κλειδί API μένει στον διακομιστή, ποτέ σε αυτή την εφαρμογή.</string>
+    <string name="setup_grant">Παραχώρηση</string>
+    <string name="setup_granted">Παραχωρήθηκε</string>
+    <string name="setup_configure">Ρύθμιση</string>
+    <string name="setup_configured">Συνδεδεμένο</string>
+    <string name="setup_howto_title">Πώς το χρησιμοποιείς</string>
+    <string name="howto_1">Άνοιξε οποιαδήποτε εφαρμογή συνομιλίας και πάτα τη φούσκα.</string>
+    <string name="howto_2">Επικόλλησε το μήνυμα, μοιράσου το στο MyRizz AI ή ανέβασε screenshot της συνομιλίας.</string>
+    <string name="howto_3">Διάλεξε στυλ και πάτα Δημιουργία για να πάρεις τρεις απαντήσεις.</string>
+    <string name="howto_4">Πάτα μια απάντηση για να την αντιγράψεις και επικόλλησέ την στη συνομιλία με το Samsung Keyboard σου.</string>
+    <string name="setup_keyboard_note">Το Samsung Keyboard μένει ανέπαφο. Το MyRizz AI δεν το αντικαθιστά, δεν το πειράζει και δεν το παρακολουθεί.</string>
+    <string name="toast_need_overlay">Επίτρεψε πρώτα το «Εμφάνιση πάνω από άλλες εφαρμογές».</string>
+
+    <!-- Home -->
+    <string name="home_title">MyRizz AI</string>
+    <string name="home_subtitle">Ιδέες για απαντήσεις, με ένα πάτημα.</string>
+    <string name="home_bubble_title">Αιωρούμενη φούσκα</string>
+    <string name="home_bubble_on">Ενεργή. Πάτα τη φούσκα σε οποιαδήποτε εφαρμογή.</string>
+    <string name="home_bubble_off">Ανενεργή. Ενεργοποίησέ την για να τη χρησιμοποιείς πάνω από τις συνομιλίες σου.</string>
+    <string name="home_bubble_needs_permission">Χρειάζεται την άδεια «Εμφάνιση πάνω από άλλες εφαρμογές».</string>
+    <string name="home_setup_required_title">Το backend AI δεν έχει ρυθμιστεί</string>
+    <string name="home_setup_required_body">Πρόσθεσε τη διεύθυνση του backend στις Ρυθμίσεις για να ενεργοποιηθούν οι απαντήσεις AI. Μέχρι τότε δεν προσποιούμαστε τίποτα.</string>
+    <string name="home_card_assistant">Βοηθός απαντήσεων</string>
+    <string name="home_card_assistant_sub">Επικόλλησε συνομιλία, πάρε 3 απαντήσεις</string>
+    <string name="home_card_screenshot">Screenshot</string>
+    <string name="home_card_screenshot_sub">Διάβασε συνομιλία από εικόνα</string>
+    <string name="home_card_styles">Στυλ απαντήσεων</string>
+    <string name="home_card_styles_sub">Φλερτ, αστείο, γοητευτικό…</string>
+    <string name="home_card_favorites">Αγαπημένα</string>
+    <string name="home_card_favorites_sub">Οι αποθηκευμένες απαντήσεις σου</string>
+    <string name="home_card_history">Ιστορικό</string>
+    <string name="home_card_history_sub">Προαιρετικό, μένει στο κινητό σου</string>
+    <string name="home_card_setup">Οδηγός ρύθμισης</string>
+    <string name="home_card_setup_sub">Άδειες και οδηγίες χρήσης</string>
+
+    <!-- Assistant -->
+    <string name="assistant_title">Βοηθός απαντήσεων</string>
+    <string name="tab_reply">Απαντήσεις</string>
+    <string name="tab_tools">Εργαλεία</string>
+    <string name="assistant_input_hint">Επικόλλησε τη συνομιλία ή το μήνυμα που θες να απαντήσεις…</string>
+    <string name="assistant_style">Στυλ</string>
+    <string name="assistant_language">Γλώσσα απάντησης</string>
+    <string name="assistant_custom_hint">Προσαρμοσμένη οδηγία (προαιρετικά), π.χ. «Πιο ρομαντικά»</string>
+    <string name="assistant_generate">Δημιουργία 3 απαντήσεων</string>
+    <string name="assistant_regenerate">Νέες απαντήσεις</string>
+    <string name="assistant_screenshot">Screenshot</string>
+    <string name="assistant_replies">Προτεινόμενες απαντήσεις</string>
+    <string name="assistant_generating">Γράφω απαντήσεις…</string>
+    <string name="assistant_detected">Γλώσσα που εντοπίστηκε: %1$s</string>
+    <string name="reply_shorten">Συντόμευση</string>
+    <string name="reply_save_favorite">Αποθήκευση στα αγαπημένα</string>
+    <string name="reply_remove_favorite">Αφαίρεση από τα αγαπημένα</string>
+    <string name="reply_replace">Αντικατάσταση κειμένου</string>
+    <string name="reply_tap_to_copy">Πάτα για αντιγραφή</string>
+
+    <!-- Tools -->
+    <string name="tools_intro">Διάλεξε εργαλείο, πρόσθεσε το κείμενό σου και τρέξε το.</string>
+    <string name="tools_input_hint">Το κείμενό σου…</string>
+    <string name="tools_input_hint_optional">Πληροφορίες για το άτομο (προαιρετικά)…</string>
+    <string name="tools_run">Εκτέλεση</string>
+    <string name="tools_result">Αποτέλεσμα</string>
+    <string name="tool_reply">Απάντηση σε αυτό το μήνυμα</string>
+    <string name="tool_improve">Βελτίωσε το μήνυμά μου</string>
+    <string name="tool_flirty">Κάν’ το πιο φλερτ</string>
+    <string name="tool_funny">Κάν’ το πιο αστείο</string>
+    <string name="tool_shorter">Κάν’ το πιο σύντομο</string>
+    <string name="tool_confident">Κάν’ το πιο σίγουρο</string>
+    <string name="tool_fix">Διόρθωση γραμματικής και ορθογραφίας</string>
+    <string name="tool_translate">Μετάφραση Ελληνικά ↔ Αγγλικά</string>
+    <string name="tool_starter">Πρότεινε ξεκίνημα συζήτησης</string>
+    <string name="tool_followup">Πρότεινε ερώτηση συνέχειας</string>
+    <string name="tool_tone">Εξήγησε το ύφος ενός μηνύματος</string>
+
+    <!-- Consent -->
+    <string name="consent_title">Αποστολή στην AI;</string>
+    <string name="consent_body">Για να γραφτούν απαντήσεις, το κείμενο που δίνεις (ή ένα screenshot, αν διαλέξεις AI vision) στέλνεται μέσω HTTPS στο MyRizz backend σου και από εκεί στον πάροχο AI. Τίποτα δεν στέλνεται μέχρι να πατήσεις κουμπί και οι συνομιλίες δεν αποθηκεύονται από προεπιλογή. Μπορείς να ανακαλέσεις τη συγκατάθεση στο Απόρρητο και δεδομένα.</string>
+    <string name="consent_accept">Συμφωνώ</string>
+    <string name="consent_decline">Όχι τώρα</string>
+
+    <!-- Errors -->
+    <string name="err_empty">Πρόσθεσε πρώτα κάποιο κείμενο.</string>
+    <string name="err_too_long">Είναι πολύ μεγάλο. Συντόμευσέ το (έως 6000 χαρακτήρες).</string>
+    <string name="err_sensitive">Το κείμενο μοιάζει να περιέχει κωδικό πρόσβασης, αριθμό κάρτας ή κωδικό μίας χρήσης. Για την ασφάλειά σου δεν θα σταλεί στην AI. Αφαίρεσέ το και δοκίμασε ξανά.</string>
+    <string name="err_not_configured">Το backend AI δεν έχει ρυθμιστεί ακόμη. Πρόσθεσε τη διεύθυνσή του στις Ρυθμίσεις.</string>
+    <string name="err_offline">Δεν υπάρχει σύνδεση στο διαδίκτυο. Έλεγξε τη σύνδεσή σου και δοκίμασε ξανά.</string>
+    <string name="err_timeout">Η AI άργησε πολύ να απαντήσει. Δοκίμασε ξανά.</string>
+    <string name="err_rate_limited">Πάρα πολλά αιτήματα. Περίμενε λίγο και δοκίμασε ξανά.</string>
+    <string name="err_unauthorized">Το backend απέρριψε το διακριτικό πρόσβασης. Έλεγξέ το στις Ρυθμίσεις.</string>
+    <string name="err_server_not_configured">Το backend είναι προσβάσιμο αλλά δεν έχει ρυθμιστεί κλειδί AI. Δες τον οδηγό ρύθμισης.</string>
+    <string name="err_bad_response">Η AI επέστρεψε μια απροσδόκητη απάντηση. Δοκίμασε ξανά.</string>
+    <string name="err_no_text">Δεν βρέθηκε κείμενο συνομιλίας στην εικόνα.</string>
+    <string name="err_ocr_failed">Δεν μπόρεσα να διαβάσω κείμενο από την εικόνα. Μπορείς να το πληκτρολογήσεις χειροκίνητα.</string>
+    <string name="err_http">Σφάλμα backend (%1$d). Δοκίμασε ξανά αργότερα.</string>
+    <string name="action_dismiss">Απόρριψη</string>
+
+    <!-- Screenshot -->
+    <string name="shot_title">Ανάλυση screenshot</string>
+    <string name="shot_intro">Διάλεξε ένα screenshot συνομιλίας. Το κείμενο διαβάζεται στη συσκευή σου και τίποτα δεν ανεβαίνει αν δεν το ζητήσεις.</string>
+    <string name="shot_pick">Επιλογή screenshot</string>
+    <string name="shot_reading">Διαβάζω το κείμενο στη συσκευή σου…</string>
+    <string name="shot_extracted">Κείμενο συνομιλίας</string>
+    <string name="shot_edit_hint">Διόρθωσε ό,τι διαβάστηκε λάθος. Το «Me:» είναι τα δικά σου μηνύματα, το «Them:» τα δικά τους.</string>
+    <string name="shot_swap">Εναλλαγή πλευρών</string>
+    <string name="shot_vision">Βελτίωση με AI vision</string>
+    <string name="shot_vision_hint">Ελληνικό κείμενο ή δυσανάγνωστο screenshot; Το AI vision μπορεί να το μεταγράψει. Η εικόνα ανεβαίνει στο backend σου, με τη συγκατάθεσή σου.</string>
+    <string name="shot_use">Δημιουργία απαντήσεων</string>
+    <string name="shot_low_confidence">Βρέθηκαν λίγες λέξεις. Ο αναγνώστης της συσκευής υποστηρίζει αγγλικά και greeklish, όχι ελληνική γραφή. Δοκίμασε AI vision ή πληκτρολόγησε το κείμενο.</string>
+    <string name="shot_used_vision">Μεταγράφηκε με AI vision. Έλεγξέ το πριν συνεχίσεις.</string>
+    <string name="shot_discard">Απόρριψη</string>
+
+    <!-- Styles -->
+    <string name="tones_title">Στυλ απαντήσεων</string>
+    <string name="tones_intro">Διάλεξε το προεπιλεγμένο στυλ. Μπορείς να το αλλάξεις όποτε θέλεις την ώρα που γράφεις.</string>
+    <string name="tones_custom_title">Προεπιλεγμένη προσαρμοσμένη οδηγία</string>
+    <string name="tones_custom_hint">π.χ. «Να ακούγεται πιο φυσικό»</string>
+    <string name="tones_selected">Προεπιλογή</string>
+    <string name="style_flirty">Φλερτ</string>
+    <string name="style_smooth">Γοητευτικό</string>
+    <string name="style_funny">Αστείο</string>
+    <string name="style_confident">Σίγουρο</string>
+    <string name="style_romantic">Ρομαντικό</string>
+    <string name="style_casual">Χαλαρό</string>
+    <string name="style_playful">Παιχνιδιάρικο</string>
+    <string name="style_respectful">Με σεβασμό</string>
+    <string name="style_bold">Τολμηρό</string>
+    <string name="style_short_sweet">Σύντομο &amp; γλυκό</string>
+    <string name="style_serious">Σοβαρό</string>
+    <string name="style_witty">Πνευματώδες</string>
+
+    <!-- Favorites / history -->
+    <string name="fav_title">Αγαπημένες απαντήσεις</string>
+    <string name="fav_empty">Δεν έχεις αγαπημένα ακόμη. Πάτα την καρδιά σε μια απάντηση για να τη σώσεις.</string>
+    <string name="fav_clear_all">Διαγραφή όλων των αγαπημένων</string>
+    <string name="hist_title">Ιστορικό χρήσης AI</string>
+    <string name="hist_off_title">Το ιστορικό είναι ανενεργό</string>
+    <string name="hist_off_body">Ενεργοποίησέ το για να κρατάς τοπική λίστα με τα πρόσφατα αιτήματά σου. Μένει σε αυτό το κινητό και δεν φεύγει ποτέ από αυτό.</string>
+    <string name="hist_enable">Ενεργοποίηση ιστορικού</string>
+    <string name="hist_on_switch">Κράτα ιστορικό</string>
+    <string name="hist_empty">Δεν υπάρχει τίποτα ακόμη.</string>
+    <string name="hist_clear">Καθαρισμός ιστορικού</string>
+    <string name="hist_kind_reply">Απαντήσεις</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Ρυθμίσεις</string>
+    <string name="settings_section_ai">Backend AI</string>
+    <string name="settings_backend_url">Διεύθυνση backend</string>
+    <string name="settings_backend_url_hint">https://o-server-sou.example.com</string>
+    <string name="settings_backend_url_invalid">Χρησιμοποίησε έγκυρη διεύθυνση https://.</string>
+    <string name="settings_token">Διακριτικό πρόσβασης (προαιρετικό)</string>
+    <string name="settings_save">Αποθήκευση</string>
+    <string name="settings_saved">Αποθηκεύτηκε</string>
+    <string name="settings_test">Έλεγχος σύνδεσης</string>
+    <string name="settings_testing">Γίνεται έλεγχος…</string>
+    <string name="settings_test_ok">Συνδέθηκε. Η AI είναι έτοιμη.</string>
+    <string name="settings_test_no_ai">Το backend είναι προσβάσιμο, αλλά δεν έχει ρυθμιστεί κλειδί AI στον διακομιστή.</string>
+    <string name="settings_section_general">Γενικά</string>
+    <string name="settings_language">Γλώσσα</string>
+    <string name="settings_language_sub">Γλώσσα εφαρμογής και απαντήσεων</string>
+    <string name="settings_styles">Στυλ απαντήσεων</string>
+    <string name="settings_privacy">Απόρρητο και δεδομένα</string>
+    <string name="settings_privacy_sub">Συγκατάθεση, ιστορικό, διαγραφή δεδομένων</string>
+    <string name="settings_about">Σχετικά</string>
+
+    <!-- Language -->
+    <string name="lang_title">Γλώσσα</string>
+    <string name="lang_ui_title">Γλώσσα εφαρμογής</string>
+    <string name="lang_system">Προεπιλογή συστήματος</string>
+    <string name="lang_en">English</string>
+    <string name="lang_el">Ελληνικά</string>
+    <string name="lang_reply_title">Γλώσσα απαντήσεων</string>
+    <string name="reply_lang_auto">Αυτόματα</string>
+    <string name="reply_lang_el">Ελληνικά</string>
+    <string name="reply_lang_en">Αγγλικά</string>
+    <string name="reply_lang_greeklish">Greeklish</string>
+    <string name="lang_reply_hint">Η αυτόματη επιλογή ακολουθεί τη συνομιλία. Τα greeklish (ελληνικά με λατινικούς χαρακτήρες) γίνονται κατανοητά και απαντιούνται σε greeklish.</string>
+
+    <!-- Privacy -->
+    <string name="privacy_title">Απόρρητο και δεδομένα</string>
+    <string name="privacy_p1">Τίποτα δεν διαβάζεται αυτόματα. Η φούσκα δεν κοιτάζει ποτέ την οθόνη σου ούτε άλλες εφαρμογές.</string>
+    <string name="privacy_p2">Η AI τρέχει μόνο όταν πατήσεις Δημιουργία ή Εκτέλεση.</string>
+    <string name="privacy_p3">Το Samsung Keyboard σου δεν αντικαθίσταται, δεν πειράζεται και δεν καταγράφεται ποτέ.</string>
+    <string name="privacy_p4">Οι συνομιλίες δεν αποθηκεύονται εκτός αν ενεργοποιήσεις το ιστορικό.</string>
+    <string name="privacy_p5">Κείμενο που μοιάζει με κωδικούς, κάρτες ή κωδικούς μίας χρήσης δεν στέλνεται ποτέ στην AI.</string>
+    <string name="privacy_p6">Η επικοινωνία γίνεται μόνο με HTTPS. Το κλειδί AI βρίσκεται στον διακομιστή σου, όχι σε αυτή την εφαρμογή.</string>
+    <string name="privacy_consent">Συγκατάθεση AI</string>
+    <string name="privacy_consent_sub">Επιτρέπει την αποστολή του κειμένου που υποβάλλεις στο backend σου</string>
+    <string name="privacy_history">Κράτα ιστορικό</string>
+    <string name="privacy_history_sub">Αποθήκευση αιτημάτων μόνο σε αυτό το κινητό</string>
+    <string name="privacy_clear_history">Καθαρισμός ιστορικού</string>
+    <string name="privacy_clear_favorites">Διαγραφή όλων των αγαπημένων</string>
+    <string name="privacy_clear_all">Διαγραφή όλων των τοπικών δεδομένων</string>
+    <string name="privacy_clear_all_confirm">Θα διαγραφούν το ιστορικό, τα αγαπημένα, η διεύθυνση backend, το διακριτικό πρόσβασης και η συγκατάθεση. Συνέχεια;</string>
+    <string name="privacy_cleared">Διαγράφηκε</string>
+
+    <!-- About -->
+    <string name="about_title">Σχετικά</string>
+    <string name="about_version">Έκδοση %1$s</string>
+    <string name="about_body">Το MyRizz AI είναι ανεξάρτητος βοηθός που σε βοηθά να γράφεις καλύτερες απαντήσεις. Δεν συνδέεται με το WhatsApp, το Instagram, το Tinder, το Messenger ή άλλη εφαρμογή.</string>
+    <string name="about_platform_note">Το Android δεν επιτρέπει σε εφαρμογές να πληκτρολογούν για λογαριασμό σου σε άλλες εφαρμογές. Οι απαντήσεις αντιγράφονται για να τις επικολλήσεις ή αντικαθιστούν κείμενο μέσω του μενού επιλογής κειμένου όπου το επιτρέπει η εφαρμογή. Εσύ είσαι πάντα αυτός που στέλνει.</string>
+
+    <!-- Overlay -->
+    <string name="overlay_title">MyRizz AI</string>
+    <string name="bubble_cd">Φούσκα MyRizz AI. Πάτα για άνοιγμα.</string>
+    <string name="overlay_channel_name">Αιωρούμενη φούσκα</string>
+    <string name="overlay_notif_title">Η φούσκα MyRizz είναι ενεργή</string>
+    <string name="overlay_notif_text">Πάτα τη φούσκα σε οποιαδήποτε εφαρμογή για ιδέες απαντήσεων.</string>
+    <string name="overlay_notif_hide">Απενεργοποίηση</string>
+    <string name="overlay_notif_open">Άνοιγμα εφαρμογής</string>
+    <string name="overlay_open_app_settings">Άνοιγμα ρυθμίσεων στην εφαρμογή</string>
+</resources>
