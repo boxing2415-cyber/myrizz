@@ -17,7 +17,6 @@ export function createAnthropicProvider({ apiKey, model, timeoutMs, fetchImpl = 
     const body = {
       model,
       max_tokens: maxTokens,
-      temperature: 0.9,
       system,
       messages: [{ role: 'user', content }],
       tools: [
