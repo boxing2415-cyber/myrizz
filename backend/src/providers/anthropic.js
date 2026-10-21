@@ -53,7 +53,11 @@ export function createAnthropicProvider({ apiKey, model, timeoutMs, fetchImpl = 
         if (res.status === 401 || res.status === 403) {
           throw new HttpError(503, 'ai_not_configured', 'The AI provider rejected the server API key');
         }
-        if (!res.ok) throw new HttpError(502, 'upstream_error', `AI provider error ${res.status}`);
+         if (!res.ok) {
+             const detail = await res.text().catch(() => '');
+             console.error(`Anthropic rejected the request: ${res.status} ${detail.slice(0, 400)}`);
+             throw new HttpError(502, 'upstream_error', `AI provider error ${res.status}`);
+        }
         const data = await res.json();
         const block = (data.content || []).find((b) => b.type === 'tool_use');
         if (!block || typeof block.input !== 'object') {
