@@ -75,10 +75,10 @@ fun TonesScreen(controller: AssistantController, onBack: () -> Unit) {
             style = MaterialTheme.typography.bodyLarge,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
         )
-        StyleChips(settings.defaultStyle) { style ->
+        StyleChips(settings.defaultStyle, onSelect = { style ->
             container.settings.update { it.copy(defaultStyle = style) }
             controller.setStyle(style)
-        }
+        })
         Text(
             stringResource(R.string.tones_selected) + ": " + stringResource(settings.defaultStyle.labelRes),
             style = MaterialTheme.typography.labelLarge,
