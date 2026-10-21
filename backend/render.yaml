@@ -1,0 +1,16 @@
+# One-click deploy on Render.com (Blueprint). Secrets are entered in the Render dashboard.
+services:
+  - type: web
+    name: myrizz-backend
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: AI_PROVIDER
+        value: anthropic
+      - key: TRUST_PROXY
+        value: "1"
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: APP_ACCESS_TOKENS
+        sync: false
